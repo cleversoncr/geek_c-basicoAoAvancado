@@ -2,6 +2,6 @@
 
 int main(){
 	printf("Hello World!\n");
-	printf("Primeiro exercício em C\n");
+	printf("Primeiro script em C");
 	return 0;
 }
