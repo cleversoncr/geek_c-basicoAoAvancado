@@ -5,37 +5,37 @@
 
  Escolha (variável)
  Inicio
- 	 Caso valor1:
- 	 	 Instruções
- 	 Caso valor2:
- 	 	 Instruções
- 	 ..
- 	 Caso valorN;
+ Caso valor1:
+ Instruções
+ Caso valor2:
+ Instruções
+ ..
+ Caso valorN;
  Fim
 
  Na linguagem C
 
  switch(variavel){
- 	 caso valor1:
- 	 	 instrucoes;
- 	 	 break;
- 	 caso valor2:
- 	 	 instrucoes;
- 	 	 break;
- 	 default:
- 	  	 instrucoes;
-}
+ caso valor1:
+ instrucoes;
+ break;
+ caso valor2:
+ instrucoes;
+ break;
+ default:
+ instrucoes;
+ }
  */
 
 #include <stdio.h>
 
-int main(){
+int main() {
 	int valor;
 
 	printf("Digite um valor de 1 a 7: ");
 	scanf("%d", &valor);
 
-	switch(valor){
+	switch (valor) {
 	case 1:
 		printf("Domingo\n");
 		break;

@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main(){ //a chave delimita um bloco de código (início)
+int main() { //a chave delimita um bloco de código (início)
 //	Declarando variáveis
 	int idade;
 //	int idade = 0;
@@ -17,4 +17,4 @@ int main(){ //a chave delimita um bloco de código (início)
 	printf("A sua idade é %d\n", idade);
 
 	return 0;
-}//fim do bloco
+} //fim do bloco

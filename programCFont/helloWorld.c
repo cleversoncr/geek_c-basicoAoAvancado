@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main() {
 	printf("Hello World!\n");
 	printf("Primeiro script em C");
 	return 0;

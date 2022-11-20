@@ -2,18 +2,16 @@
 #include <stdio.h>
 
 /*
-Utilizado quando você precisa de um loop
-onde não se tenha um número fixo de elementos
-mas que tenha um critério de parada e
-a condição de parada é checada após a primeira execução
-*/
+ Utilizado quando você precisa de um loop
+ onde não se tenha um número fixo de elementos
+ mas que tenha um critério de parada e
+ a condição de parada é checada após a primeira execução
+ */
 
-int main()
-{
+int main() {
 	int numero, soma = 0;
 
-	do
-	{
+	do {
 		printf("Informe um número: ");
 		scanf("%d", &numero);
 
