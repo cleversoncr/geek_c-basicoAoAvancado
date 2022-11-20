@@ -2,6 +2,6 @@
 
 //main => principal
 int main(){
-	printf("Main function");
+	printf("Main function test");
 	return 0;
 }
